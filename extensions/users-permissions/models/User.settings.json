@@ -55,6 +55,14 @@
     },
     "judge": {
       "type": "string"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "literatura",
+        "musica",
+        "todas"
+      ]
     }
   }
 }
