@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "musical_reviews",
+  "info": {
+    "name": "MusicalReview"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "post": {
+      "model": "post"
+    },
+    "rating1": {
+      "type": "integer"
+    },
+    "rating2": {
+      "type": "integer"
+    },
+    "rating3": {
+      "type": "integer"
+    },
+    "rating4": {
+      "type": "integer"
+    },
+    "rating5": {
+      "type": "integer"
+    },
+    "rating6": {
+      "type": "integer"
+    },
+    "rating7": {
+      "type": "integer"
+    },
+    "rating8": {
+      "type": "integer"
+    }
+  }
+}

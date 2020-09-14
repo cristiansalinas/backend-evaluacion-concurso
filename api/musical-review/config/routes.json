@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/musical-reviews",
+      "handler": "musical-review.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/musical-reviews/count",
+      "handler": "musical-review.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/musical-reviews/:id",
+      "handler": "musical-review.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/musical-reviews",
+      "handler": "musical-review.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/musical-reviews/:id",
+      "handler": "musical-review.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/musical-reviews/:id",
+      "handler": "musical-review.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

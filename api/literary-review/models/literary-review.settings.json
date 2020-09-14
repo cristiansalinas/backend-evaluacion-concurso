@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "literary_reviews",
+  "info": {
+    "name": "LiteraryReview"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "post": {
+      "model": "post"
+    },
+    "rating": {
+      "type": "integer"
+    }
+  }
+}

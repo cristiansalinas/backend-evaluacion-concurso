@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/literary-reviews",
+      "handler": "literary-review.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/literary-reviews/count",
+      "handler": "literary-review.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/literary-reviews/:id",
+      "handler": "literary-review.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/literary-reviews",
+      "handler": "literary-review.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/literary-reviews/:id",
+      "handler": "literary-review.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/literary-reviews/:id",
+      "handler": "literary-review.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
