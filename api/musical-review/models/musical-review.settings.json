@@ -39,6 +39,10 @@
     },
     "rating8": {
       "type": "integer"
+    },
+    "pending": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
